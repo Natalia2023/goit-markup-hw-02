@@ -5,18 +5,43 @@
     /* цвет лого #4D5AE5 */
     /* цвет логос #2E2F42 */
     /* стилизируем основной боди, задаем основной цвет и осн.фон */
-    .page {
-        color:#434455;
-        background-color: #E5E5E5 ;
+    /* фон адреса та емейл #434455 */
+    /* змінні */
+    :root {
+      --paragraph-primary-color: #434455;
+      --title-primary-color: #2E2F42;
+      --title-secondary-color: #ffffff;
+      --brand-color: #4D5AE5;
+      --background-primary-color: #ffffff;
+      --nav-link-color:#2E2F42;
+      --contacts-link-color:#434455;
+      --link-hover-color: #4D5AE5;
+      --background-color-page: #E5E5E5;
     }
-    /* делаем логотип */
+    
+    .page {
+        color: var(--paragraph-primary-color);
+        background-color: var(--background-color-page);
+    }
+    /* стилізуємо лого */
     .logo {
-      color: #4D5AE5;
+      color: var(--brand-color);
     }
     .logos {
-      color: #2E2F42;
+      color: var(--nav-link-color);
     }
     /* прибираємо чорні точки */
     ul {
       list-style: none;
+    }
+    /* стилізуємо ссилки */
+    .sity-nav .link {
+      color: var(--contacts-link-color);
+    }
+    .sity-nav .link:hover,
+    .sity-nav .link:focus {
+      color: var(--link-hover-color);
+    }
+    .out-nav .nav-link {
+      color: var(--contacts-link-color);
     }
