@@ -16,7 +16,7 @@
       --nav-link-color:#2E2F42;
       --contacts-link-color:#434455;
       --link-hover-color: #4D5AE5;
-      --background-color-page: #E5E5E5;
+      --background-color-page: #FFFFFF;
     }
     
     .page {
@@ -43,5 +43,9 @@
       color: var(--link-hover-color);
     }
     .out-nav .nav-link {
-      color: var(--contacts-link-color);
+      color: var(--contacts-link-color);  
+    }
+    /* робимо заголовки */
+    .features-title .title {
+      color: #13f143;
     }
