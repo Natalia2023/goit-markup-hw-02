@@ -19,33 +19,53 @@
       --background-color-page: #FFFFFF;
     }
     
-    .page {
+    body {
         color: var(--paragraph-primary-color);
         background-color: var(--background-color-page);
+        font-family:'Roboto', sans-serif;
+        letter-spacing: 0.015em;
     }
+
+    .no-decoration {
+      text-decoration: none;
+    }
+
+     /* прибираємо чорні точки */
+     ul {
+      list-style: none;
+    }
+
     /* стилізуємо лого */
     .logo {
       color: var(--brand-color);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 0.02em;
     }
     .logos {
       color: var(--nav-link-color);
     }
-    /* прибираємо чорні точки */
-    ul {
-      list-style: none;
+
+      /* Novigation */
+
+    .nav-link {
+      color: var(--title-primary-color);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 0.02em;
     }
-    /* стилізуємо ссилки */
-    .sity-nav .link {
-      color: var(--contacts-link-color);
-    }
-    .sity-nav .link:hover,
-    .sity-nav .link:focus {
-      color: var(--link-hover-color);
-    }
-    .out-nav .nav-link {
-      color: var(--contacts-link-color);  
-    }
-    /* робимо заголовки */
-    .features-title .title {
-      color: #13f143;
-    }
+   
+    .contacts-link {
+      color: #434455;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5em;   
+      letter-spacing: 0.02em;
+     }
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--link-hover-color);
+}
+ 
