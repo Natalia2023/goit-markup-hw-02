@@ -21,11 +21,9 @@
     
     body {
         color: var(--paragraph-primary-color);
-        background-color: var(--background-color-page);
-        font-family:'Roboto', sans-serif;
-        letter-spacing: 0.015em;
+            letter-spacing: 0.015em;
     }
-
+/* убираем подчеркивание ссилки */
     .no-decoration {
       text-decoration: none;
     }
@@ -69,3 +67,45 @@
   color: var(--link-hover-color);
 }
  
+/* Hero */
+.hero-title {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--background-color-page);
+background: #2E2F42
+}
+
+.hero-btn {
+color: var(--background-primary-color);
+background: var(--brand-color);
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19em;
+}
+
+/* Features section */
+
+.item-title {
+  color: var(--title-primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.description {
+font-size: 16px;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+}
+
+/*    <!--section works--> */
+.works-link {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+}
