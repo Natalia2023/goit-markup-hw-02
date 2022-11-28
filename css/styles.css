@@ -44,6 +44,11 @@
       color: var(--nav-link-color);
     }
 
+    .foter-decoration .akcent {
+      color: var(--title-secondary-color);
+    }
+
+   
       /* Novigation */
 
     .nav-link {
@@ -109,3 +114,36 @@ letter-spacing: 0.02em;
   width: 360px;
   height: 300px;
 }
+
+.foter-decoration {
+width: 1440px;
+height: 310px;
+left: 0px;
+top: 2283px;
+background: #2E2F42;
+}
+
+.foter-decoration .description {
+  color: var(--title-secondary-color);
+}
+
+/* portfolio */
+.portfolio-filter-bnt:hover,
+.portfolio-filter-bnt:focus {
+  background: var(--link-hover-color);
+  color: var(--background-primary-color);
+}
+.portfolio-filter-bnt {
+  background-color: #f4f4fd;
+  font-family: 'Roboto';
+  
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+}
+
