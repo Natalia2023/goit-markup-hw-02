@@ -24,7 +24,7 @@
             letter-spacing: 0.015em;
     }
 /* убираем подчеркивание ссилки */
-    .no-decoration {
+    .no-decoration . {
       text-decoration: none;
     }
 
@@ -39,9 +39,11 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 0.02em;
+      text-decoration: none;
     }
     .logos {
       color: var(--nav-link-color);
+      text-decoration: none;
     }
 
     .foter-decoration .akcent {
@@ -56,6 +58,7 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 0.02em;
+      text-decoration: none;
     }
    
     .contacts-link {
@@ -64,6 +67,7 @@
       font-size: 16px;
       line-height: 1.5em;   
       letter-spacing: 0.02em;
+      text-decoration: none;
      }
 .contacts-link:hover,
 .contacts-link:focus,
