@@ -7,6 +7,14 @@
     /* стилизируем основной боди, задаем основной цвет и осн.фон */
     /* фон адреса та емейл #434455 */
     /* змінні */
+    html {
+      box-sizing: border-box;
+    }
+     *,
+     *::before,
+     *::after {
+  box-sizing: border-box;
+}
     :root {
       --paragraph-primary-color: #434455;
       --title-primary-color: #2E2F42;
