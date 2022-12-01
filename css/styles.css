@@ -140,6 +140,7 @@ background: #2E2F42;
   color: var(--background-primary-color);
 }
 .portfolio-filter-bnt {
+  color: #4D5AE5;
   background-color: #f4f4fd;
   font-family: 'Roboto';
   
